@@ -36,10 +36,10 @@
     "vite": "^6.0.3"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,css,scss,json}": [
+    "src/**/*.{js,jsx,ts,tsx,css,scss,json}": [
       "prettier --write --cache --ignore-unknown"
     ],
-    "*.{js,jsx,ts,tsx}": [
+    "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --cache --fix"
     ]
   }
